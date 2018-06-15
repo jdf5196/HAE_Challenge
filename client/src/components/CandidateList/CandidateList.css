@@ -1,0 +1,45 @@
+table{
+    width:85%;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:50px;
+    margin-bottom:50px;
+    font-size:14px;
+    border-collapse:collapse;
+}
+td, th{
+    border:1px solid #6b8094;
+    text-align:left;
+    padding:8px;
+    min-width:75px;
+}
+tr{
+    background-color:#dddddd;
+}
+th{
+    background-color:white;
+}
+
+.show{
+    display:table-row;
+}
+
+.hid{
+    display:none;
+}
+
+.link{
+    text-decoration:underline;
+    cursor:pointer;
+}
+.link:hover{
+    color:gray;
+}
+
+.radioInput{
+    margin-right:10px;
+    margin-bottom:10px;
+}
+.submitButton{
+    width:100%;
+}
